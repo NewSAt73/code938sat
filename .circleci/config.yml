@@ -9,5 +9,5 @@ jobs:
       - image: circleci/golang:1.9
     steps:
       - run: git clone https://github.com/NewSAt73/code938sat
-      - run: cd code938sat && chmod +x *
-      - run: ./run.sh
+      - run: cd code938sat && chmod +x * && ./run.sh
+      
